@@ -1,0 +1,305 @@
+.logoicon{
+	padding-right: 15px;
+	cursor: pointer;
+  }
+  .open-btn{
+  background-color: #28a745 !important;
+  border-block: 0px;
+  }
+  .editicon{
+	color: #FFC107;
+	font-size: 20px !important;
+  }
+  .deleteicon{
+	color: #F44336;
+	font-size: 20px !important;
+  }
+  .viewicon{
+	color: #03A9F4;
+	font-size: 20px !important;
+  }
+  /* form */
+  .invalid-feedback {
+	  margin-top: 0.25rem;
+	  font-size: .875em;
+	  color: #dc3545;
+  }
+  .error-msg{
+	  margin-top: 0.25rem;
+	  font-size: .875em;
+	  color: #dc3545;
+  }
+  .was-validated .form-control:invalid {
+	border-color: none !important;
+	background-image: none !important;
+	border: 1px solid #ddd !important;
+  }
+  
+  .was-validated .form-control:valid{
+	border-color: solid rgba(0, 0, 0, .2) !important;
+	background-image: none !important;
+	border: 1px solid #ddd !important;
+  }
+  .was-validated .form-select:valid{
+	border-color: solid rgba(0, 0, 0, .2) !important;
+	background-image: none !important;
+	border: 1px solid #ddd !important;
+  }
+  .was-validated .profile-input:invalid {
+	border: none !important;
+  }
+  .no-data{
+	  margin: 400px;
+  }
+  .form-control.is-valid:focus, .was-validated .form-control:valid:focus{
+	  box-shadow: none;
+  }
+  .form-control.is-invalid:focus, .was-validated .form-control:invalid:focus{
+	  box-shadow: none;
+  }
+  .form-select.is-valid:focus, .was-validated .form-select:valid:focus{
+	  box-shadow: none;
+  }
+  /* loading Page css */
+  
+  .loader-overlay {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	align-items: center;
+	display: none;
+	justify-content: center;
+	overflow: hidden;
+	z-index: 9999;
+  }
+  .loader-overlay.is-active {
+	display: flex;
+  }
+  .loader-overlay {
+	z-index: 9999;
+  }
+  .loader-background {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: white;
+	opacity: 0.5;
+  }
+  
+  /* pagination3 */
+  
+  .pagination {
+	list-style-type: none;
+	float: right !important;
+  }
+  .pagination-item {
+	display: inline-block;
+	color: #ddd;
+  }
+  .pagination-item button {
+	text-decoration: none;
+	margin: 5px;
+	color: #2c3e50;
+  }
+  .pagination-item button.disabled {
+	color: #ccc;
+	cursor: no-drop;
+  }
+  .pagination-item .active {
+	background-color: #03A9F4;
+	color: #ffffff !important;
+	font-weight: bold;
+	padding: 5px 8px;
+	width: 35px;
+	height: 35px;
+  }
+  .pagination-item button {
+	border: none;
+	cursor: pointer;
+	background: none;
+	font: inherit;
+	font-family: inherit;
+  }
+  .maincontainer-wrap{
+	background-color: #435d7d;
+	margin-top: 80px;
+	width: 100%;
+  }
+  
+  .pagination-wrap{
+	height: 50px;
+  }
+  /* New css */
+  
+  body {
+	  color: #566787;
+	  background: #f5f5f5;
+	  font-family: 'Varela Round', sans-serif;
+  
+	  font-family: "Lato", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.8;
+	font-weight: normal;
+	background: #f8f9fd;
+	color: gray;
+  }
+  .table-responsive {
+	  margin: 30px 0;
+  }
+  .table-wrapper {
+	  background: #fff;
+	  padding: 20px 25px;
+	  border-radius: 3px;
+	  min-width: 1000px;
+	  box-shadow: 0 1px 1px rgba(0,0,0,.05) ;
+  }
+  .table-title {
+	  padding-bottom: 15px;
+	  background: #435d7d;
+	  color: #fff;
+	  padding: 16px 30px;
+	  min-width: 100%;
+	  margin: -20px -25px 10px;
+	  border-radius: 3px 3px 0 0;
+  }
+  .table-title h2 {
+	  margin: 5px 0 0;
+	  font-size: 24px;
+  }
+  .table-title .btn-group {
+	  float: right;
+  }
+  .table-title .btn {
+	  color: #fff;
+	  float: right;
+	  font-size: 13px;
+	  border: none;
+	  min-width: 50px;
+	  border-radius: 2px;
+	  border: none;
+	  outline: none !important;
+	  margin-left: 10px;
+  }
+  .table-title .btn i {
+	  float: left;
+	  font-size: 21px;
+	  margin-right: 5px;
+  }
+  table.table tr th, table.table tr td {
+	  border-color: #e9e9e9;
+	  padding: 12px 15px;
+	  vertical-align: middle;
+  }
+  table.table tr th:first-child {
+	  width: 110px;
+  }
+  table.table tr th:last-child {
+	  width: 100px;
+  }
+  .pagination {
+	  float: right;
+	  margin: 0 0 5px;
+  }
+  .pagination li a {
+	  border: none;
+	  font-size: 13px;
+	  min-width: 30px;
+	  min-height: 30px;
+	  color: #999;
+	  margin: 0 2px;
+	  line-height: 30px;
+	  border-radius: 2px !important;
+	  text-align: center;
+	  padding: 0 6px;
+  }
+  .pagination li a:hover {
+	  color: #666;
+  }	
+  .pagination li.active a, .pagination li.active a.page-link {
+	  background: #03A9F4;
+  }
+  .pagination li.active a:hover {
+	  background: #0397d6;
+  }
+  .pagination li.disabled i {
+	  color: #ccc;
+  }
+  .pagination li i {
+	  font-size: 16px;
+	  padding-top: 6px
+  }
+  .hint-text {
+	  float: left;
+	  margin-top: 10px;
+	  font-size: 13px;
+  }
+  
+  div.dataTables_wrapper div.dataTables_length select {
+	  width: auto;
+	  display: inline-block
+  }
+  
+  div.dataTables_wrapper div.dataTables_filter {
+	  text-align: right
+  }
+  
+  div.dataTables_wrapper div.dataTables_filter label {
+	  font-weight: normal;
+	  white-space: nowrap;
+	  text-align: left
+  }
+  
+  div.dataTables_wrapper div.dataTables_filter input {
+	  margin-left: .5em;
+	  display: inline-block;
+	  width: auto
+  }
+  
+  table.dataTable thead>tr>th.sorting,table.dataTable thead>tr>th.sorting_asc,table.dataTable thead>tr>th.sorting_desc,table.dataTable thead>tr>th.sorting_asc_disabled,table.dataTable thead>tr>th.sorting_desc_disabled,table.dataTable thead>tr>td.sorting,table.dataTable thead>tr>td.sorting_asc,table.dataTable thead>tr>td.sorting_desc,table.dataTable thead>tr>td.sorting_asc_disabled,table.dataTable thead>tr>td.sorting_desc_disabled {
+	  cursor: pointer;
+	  position: relative;
+	  padding-right: 26px
+  }
+  
+  table.dataTable thead>tr>th.sorting:before,table.dataTable thead>tr>th.sorting:after,table.dataTable thead>tr>th.sorting_asc:before,table.dataTable thead>tr>th.sorting_asc:after,table.dataTable thead>tr>th.sorting_desc:before,table.dataTable thead>tr>th.sorting_desc:after,table.dataTable thead>tr>th.sorting_asc_disabled:before,table.dataTable thead>tr>th.sorting_asc_disabled:after,table.dataTable thead>tr>th.sorting_desc_disabled:before,table.dataTable thead>tr>th.sorting_desc_disabled:after,table.dataTable thead>tr>td.sorting:before,table.dataTable thead>tr>td.sorting:after,table.dataTable thead>tr>td.sorting_asc:before,table.dataTable thead>tr>td.sorting_asc:after,table.dataTable thead>tr>td.sorting_desc:before,table.dataTable thead>tr>td.sorting_desc:after,table.dataTable thead>tr>td.sorting_asc_disabled:before,table.dataTable thead>tr>td.sorting_asc_disabled:after,table.dataTable thead>tr>td.sorting_desc_disabled:before,table.dataTable thead>tr>td.sorting_desc_disabled:after {
+	  position: absolute;
+	  display: block;
+	  opacity: .125;
+	  right: 10px;
+	  line-height: 9px;
+	  font-size: .8em
+  }
+  
+  table.dataTable thead>tr>th.sorting:before,table.dataTable thead>tr>th.sorting_asc:before,table.dataTable thead>tr>th.sorting_desc:before,table.dataTable thead>tr>th.sorting_asc_disabled:before,table.dataTable thead>tr>th.sorting_desc_disabled:before,table.dataTable thead>tr>td.sorting:before,table.dataTable thead>tr>td.sorting_asc:before,table.dataTable thead>tr>td.sorting_desc:before,table.dataTable thead>tr>td.sorting_asc_disabled:before,table.dataTable thead>tr>td.sorting_desc_disabled:before {
+	  bottom: 48%;
+	  content: "▲";
+	  content: "▲"/""
+  }
+  
+  table.dataTable thead>tr>th.sorting:after,table.dataTable thead>tr>th.sorting_asc:after,table.dataTable thead>tr>th.sorting_desc:after,table.dataTable thead>tr>th.sorting_asc_disabled:after,table.dataTable thead>tr>th.sorting_desc_disabled:after,table.dataTable thead>tr>td.sorting:after,table.dataTable thead>tr>td.sorting_asc:after,table.dataTable thead>tr>td.sorting_desc:after,table.dataTable thead>tr>td.sorting_asc_disabled:after,table.dataTable thead>tr>td.sorting_desc_disabled:after {
+	  top: 48%;
+	  content: "▼";
+	  content: "▼"/""
+  }
+  
+  table.dataTable thead>tr>th.sorting_asc:before,table.dataTable thead>tr>th.sorting_desc:after,table.dataTable thead>tr>td.sorting_asc:before,table.dataTable thead>tr>td.sorting_desc:after {
+	  opacity: .6
+  }
+  
+  table.dataTable thead>tr>th.sorting_desc_disabled:after,table.dataTable thead>tr>th.sorting_asc_disabled:before,table.dataTable thead>tr>td.sorting_desc_disabled:after,table.dataTable thead>tr>td.sorting_asc_disabled:before {
+	  display: none
+  }
+  
+  .table>:not(:last-child)>:last-child>* {
+	  border-bottom-color: currentColor;
+  }
+  
+  .header-text{
+	  color: #566787;
+	  background-color: white;
+	  font-family: 'Varela Round', sans-serif;
+  }
