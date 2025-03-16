@@ -50,6 +50,6 @@ Thumbs.db
 backEnd/node_modules
 backEnd/.env
 backEnd/package-lock.json
-frontEnd/.env
+# frontEnd/.env
 frontEnd/.next
 frontEnd/package-lock.json
